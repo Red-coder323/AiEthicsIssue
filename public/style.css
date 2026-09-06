@@ -9,6 +9,7 @@
 }
 
 button {
+  border-radius: 8px;
   font-family: inherit;
   background-color: var(--bg);
   color: var(--text);
