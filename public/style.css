@@ -8,6 +8,12 @@
   --text: #e0e0e0;
 }
 
+button {
+  font-family: inherit;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
 body {
   font-family: 'Syne', sans-serif;
   background-color: var(--bg);
