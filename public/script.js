@@ -1,8 +1,7 @@
 const wantdark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 function toggledarkmode() {
-    document.documentElement.dataset.theme 
-        = html.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
 }
 
 function main() {
